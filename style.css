@@ -1,0 +1,302 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5c5858;
+    margin: auto;
+}
+span {
+    color: #5dc6b0;
+}
+.docplanner-logo {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+a {
+    color: #636262;
+    text-decoration: none;
+    padding: 5px;
+}
+.active {
+    color: #5dc6b0;
+}
+.docplanner-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    position: sticky;
+    top: 0;
+    background-color: white; 
+    z-index: 1000; 
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+} 
+.intro-logo {
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+}
+.title {
+    color: #5dc6b0;
+    font-size:xx-large;
+}
+.intro-text {
+    display: flex;
+    justify-content: space-around;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2opx;
+}
+.service-card-patient {
+   background-color:#5dc6b0 ;
+   padding: 30px;
+   border-radius: 8px;
+   color: white;
+   margin: 10px;
+   position: relative;
+   height: 300px;
+   flex-basis: 48%;
+   font-size:x-large;
+}
+.service-card-doctors {
+   background-color: #4293db;
+   padding: 30px;
+   border-radius: 8px;
+   color: white;
+   margin: 10px;
+   position: relative;
+   height: 300px;
+   flex-basis: 48%;
+   font-size:x-large;
+}
+.service-card-clinic {
+    background-color: #042249;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+    position: relative;
+    height: 300px;
+    flex-basis: 48%;
+    font-size:x-large;
+}
+.intro-para {
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 30px;
+    margin-right: 20px;
+    font-size:larger;
+}
+.p1 {
+    padding: 5px;
+}
+.service-card-select {
+    background-color:#5dc6b0;
+    color: white;
+    padding: 10px;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+}
+.service-card-image {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+.service-select {
+    background-color: #042249;
+    color: white;
+    padding: 5px;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+}
+.service-card-select-2 {
+    background-color: #4293db;
+    color: white;
+    margin-top: 45px;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+}
+#random {
+    color: #5dc6b0;
+    font-size:xx-large;
+}
+#Rtext {
+    width: 250px;
+    padding: 25px;
+}
+#cassade {
+    display: flex;
+    justify-content: space-between;
+}
+.gipo {
+    width: 120px;
+    height: 120px;
+}
+#Away {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,110px);
+    grid-template-rows: repeat(3,110px);
+    
+}
+.Atext {
+    display: flex;
+    justify-content:flex-start;
+}
+.PUB {
+    height: 20px;
+}
+.tempo {
+    height: 17px;
+}
+.mid {
+    background-color: #ccebe7;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 600px;
+    position: relative;
+}
+.middle {
+    padding: 20px;
+    width: 100%;
+    color:#34b99d;
+    max-width: 1100px;
+    margin: 0 auto;   
+    padding: 0 20px; 
+    margin-top: 50px; 
+}
+.Wid {
+    max-width: 1100px; 
+    margin: 0 auto;    
+    padding: 0 20px;   
+}
+.LOGO {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#Disappear {
+    position: absolute; 
+    padding-top: 200px;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    clip-path: inset(0 0 25% 0);
+}
+.middle Effect {
+    margin-right: 0;
+}
+#left {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 80px; 
+    padding-top: 0px; 
+    height: calc(100% - 90px); 
+    overflow: hidden; 
+}
+
+.Effect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; 
+    width: 100%; 
+    max-width: 350px; 
+    position: relative; 
+}
+.ssh1, .ssh2 {
+    background-color: white; 
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    height: 150px; 
+    overflow: hidden; 
+}
+.ssh1 img, .ssh2 img {
+    max-width: 50px; 
+}
+
+.blur {
+    margin-top: auto; 
+    font-size: medium;
+    color:#5dc6b0
+}
+#small {
+    font-size: small;
+}
+#Almost {
+    text-align: center;
+    padding: 100px;
+}
+#Bob {
+    color: #34b99d;
+}
+#end {
+    text-align: center;
+    color: gray;
+}
+#quick {
+    display: grid;
+    width: 80%; 
+    margin: auto;
+}
+.knot {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+    list-style-type: none;
+    grid-gap: 5px;
+    margin: auto;
+}
+.pls {
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.exc{
+    display: inline;
+    position: relative;
+}
+.exc a {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 70px;
+    height: 15px;
+    left: 200px;
+    top: -50px;
+    background-color: #2c7de7;
+    color: white;
+    font-size: .625rem;
+    padding: 1em 1.5em;
+    border-radius: 4px;
+    bottom: px;
+}
+#END {
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 50px;
+}
+#END a {
+    background-color: #2c7de7;
+    color: white;
+    font-size: .625rem;
+    padding: 1em 1.5em;
+    border-radius: 4px;
+}
